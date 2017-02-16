@@ -6,14 +6,14 @@
 html,
 body {
   color: #373D42;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   height: 100%;
   /* The html and body elements cannot have any padding or margin. */
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #373D42;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak],
@@ -123,7 +123,7 @@ margin-left: 0;
 
 .navbar-default .navbar-nav>li>a {
   color: #cfe3f4;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -150,8 +150,8 @@ margin-left: 0;
 }
 
 .insight {
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
   font-style: italic;
   font-weight: 700;
   overflow: hidden;
@@ -203,14 +203,14 @@ margin-left: 0;
 
 #search::-webkit-input-placeholder {
   color: #CFE3F4;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: italic;
   font-weight: 100;
 }
 
 #search::-moz-placeholder {
   color: #CFE3F4;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 100;
 }
 
@@ -755,7 +755,7 @@ a.v_highlight_more {
     font-size: 18px;
   }
   .insight {
-    font-size: 30px;
+    font-size: 40px;
   }
   .navbar-default .navbar-nav>li>a {
     padding-left: 15px;
@@ -852,13 +852,13 @@ a.v_highlight_more {
 }
 
 #container_img {
-    width: 50px;
-    height: 50px;
+    width: 52px;
+    height: 45px;
     background-image: url("https://www.dash.org/assets/img/graphics/dash_circle_highres.png");
     background-size: cover;
     margin-right: -23px;
     background-repeat: no-repeat;
-    z-index: 3;
+    z-index: 5;
     display:inline-block;
-    background-position: -30% 0%;
+    background-position: 0% 0%;
 }
