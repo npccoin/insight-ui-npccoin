@@ -49,3 +49,5 @@ po/*
 !po/*.po
 
 /mynode
+
+public/img/icons/favicon_insight.ico
