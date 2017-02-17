@@ -850,15 +850,3 @@ a.v_highlight_more {
     width: 350px;
   }
 }
-
-#container_img {
-    width: 52px;
-    height: 45px;
-    background-image: url("https://www.dash.org/assets/img/graphics/dash_circle_highres.png");
-    background-size: cover;
-    margin-right: -23px;
-    background-repeat: no-repeat;
-    z-index: 5;
-    display:inline-block;
-    background-position: 0% 0%;
-}
