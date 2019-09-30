@@ -1,6 +1,6 @@
 # Insight UI Dash
 
-A Dash blockchain explorer web application service for [Bitcore Node Dash](https://github.com/dashpay/bitcore-node-dash) using [Insight API Dash](https://github.com/dashpay/insight-api-dash).
+A Dash blockchain explorer web application service for [Bitcore Node Dash](https://github.com/dashpay/npccoincore-node) using [Insight API Dash](https://github.com/dashpay/insight-api-npccoin).
 
 ## Quick Start
 
@@ -11,12 +11,12 @@ Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io
 To manually install all of the necessary components, you can run these commands:
 
 ```bash
-npm install -g bitcore-node-dash
-bitcore-node-dash create mynode
+npm install -g npccoincore-node
+npccoincore-node create mynode
 cd mynode
-bitcore-node-dash install insight-api-dash
-bitcore-node-dash install insight-ui-dash
-bitcore-node-dash start
+npccoincore-node install insight-api-npccoin
+npccoincore-node install insight-ui-dash
+npccoincore-node start
 ```
 
 Open a web browser to `http://localhost:3001/insight/`
@@ -70,7 +70,7 @@ compile***.
 
 ## Note
 
-For more details about the [Insight API](https://github.com/dashpay/insight-api-dash) configuration and end-points, go to [Insight API GitHub repository](https://github.com/dashpay/insight-api-dash).
+For more details about the [Insight API](https://github.com/dashpay/insight-api-npccoin) configuration and end-points, go to [Insight API GitHub repository](https://github.com/dashpay/insight-api-npccoin).
 
 ## Contribute
 

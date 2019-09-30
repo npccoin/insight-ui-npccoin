@@ -1,9 +1,13 @@
 {
-  "name": "insight-ui-dash",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the Dash network and build your own services with it.",
+  "name": "insight-ui-npccoin",
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the NPCcoin network and build your own services with it.",
   "version": "0.4.3",
-  "repository": "git://github.com/dashpay/insight-ui-dash.git",
+  "repository": "git://github.com/npccoin/insight-ui-npccoin.git",
   "contributors": [
+    {
+      "name": "Estilodevida",
+      "email": "estilodevidanpc@gmail.com"
+    },
     {
       "name": "Matias Alejo Garcia",
       "email": "ematiu@gmail.com"
@@ -26,19 +30,19 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/dashpay/insight-ui-dash/issues"
+    "url": "https://github.com/npccoin/insight-ui-npccoin/issues"
   },
-  "homepage": "https://github.com/dashpay/insight-ui-dash",
+  "homepage": "https://github.com/npccoin/insight-ui-npccoin",
   "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
-    "dash",
-    "bitcore-dash",
+    "npccoin",
+    "bitcore-npccoin",
     "front-end"
   ],
-  "bitcoreNode": "bitcore-node-dash",
+  "bitcoreNode": "npccoincore-node",
   "dependencies": {
   },
   "devDependencies": {
