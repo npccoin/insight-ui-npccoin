@@ -1,10 +1,10 @@
-# Insight UI Dash
+# Insight UI NPCcoin
 
-A Dash blockchain explorer web application service for [Bitcore Node Dash](https://github.com/dashpay/npccoincore-node) using [Insight API Dash](https://github.com/dashpay/insight-api-npccoin).
+A NPCcoin blockchain explorer web application service for [Bitcore Node NPCcoin](https://github.com/npccoin/npccoincore-node) using [Insight API NPCcoin](https://github.com/npccoin/insight-api-npccoin).
 
 ## Quick Start
 
-Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Bitcore](https://github.com/dashpay/bitcore-dash).
+Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Bitcore](https://github.com/npccoin/bitcore-npccoin).
 
 ## Getting Started
 
@@ -15,7 +15,7 @@ npm install -g npccoincore-node
 npccoincore-node create mynode
 cd mynode
 npccoincore-node install insight-api-npccoin
-npccoincore-node install insight-ui-dash
+npccoincore-node install insight-ui-npccoin
 npccoincore-node start
 ```
 
@@ -23,7 +23,7 @@ Open a web browser to `http://localhost:3001/insight/`
 
 ## Development
 
-To run Insight UI Dash locally in development mode:
+To run Insight UI NPCcoin locally in development mode:
 
 Install bower dependencies:
 
@@ -45,7 +45,7 @@ $ grunt
 
 ## Multilanguage support
 
-Insight UI Dash uses [angular-gettext](http://angular-gettext.rocketeer.be) for multilanguage support.
+Insight UI NPCcoin uses [angular-gettext](http://angular-gettext.rocketeer.be) for multilanguage support.
 
 To enable a text to be translated, add the ***translate*** directive to html tags. See more details [here](http://angular-gettext.rocketeer.be/dev-guide/annotate/). Then, run:
 
@@ -70,11 +70,11 @@ compile***.
 
 ## Note
 
-For more details about the [Insight API](https://github.com/dashpay/insight-api-npccoin) configuration and end-points, go to [Insight API GitHub repository](https://github.com/dashpay/insight-api-npccoin).
+For more details about the [Insight API](https://github.com/npccoin/insight-api-npccoin) configuration and end-points, go to [Insight API GitHub repository](https://github.com/npccoin/insight-api-npccoin).
 
 ## Contribute
 
-Contributions and suggestions are welcomed at the [Insight UI Dash GitHub repository](https://github.com/dashpay/insight-ui-dash).
+Contributions and suggestions are welcomed at the [Insight UI NPCcoin GitHub repository](https://github.com/npccoin/insight-ui-npccoin).
 
 
 ## License
